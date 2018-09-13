@@ -1,6 +1,13 @@
 # Acadêmico
 _Repositório reunindo alguns exercícios e trabalhos acadêmicos._
 
+[![GitHub last commit](https://img.shields.io/github/last-commit/ArturGuedes/Academico.svg)]()
+[![Academico language count](https://img.shields.io/github/languages/count/ArturGuedes/Academico.svg)]()
+[![GitHub top language](https://img.shields.io/github/languages/top/ArturGuedes/Academico.svg)]()
+[![Github All Releases](https://img.shields.io/github/downloads/ArturGuedes/Academico/total.svg)]()
+
+
+
 - 1º Período
   - [Ferramentas para WEB (CAP&ART)](https://arturguedes.github.io/Academico/1.web1/)
   - [Programação de Computadores I](https://github.com/ArturGuedes/Academico/tree/master/1.prog1)
