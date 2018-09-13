@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#c64b59">
+    <title>Religião</title>
+    <style>
+        @font-face {
+            font-family: 'Source Sans Pro';
+            src: url(font/SourceSansPro-ExtraLight.ttf);
+            font-weight: 200;
+        }
+        
+        @font-face {
+            font-family: 'Source Sans Pro';
+            src: url(font/SourceSansPro-Light.ttf);
+            font-weight: 300;
+        }
+        
+        @font-face {
+            font-family: 'Source Sans Pro';
+            src: url(font/SourceSansPro-Regular.ttf);
+            font-weight: 400;
+        }
+        
+        @font-face {
+            font-family: 'Source Sans Pro';
+            src: url(font/SourceSansPro-SemiBold.ttf);
+            font-weight: 600;
+        }
+        
+        @font-face {
+            font-family: 'Source Sans Pro';
+            src: url(font/SourceSansPro-Bold.ttf);
+            font-weight: 700;
+        }
+        
+        @font-face {
+            font-family: 'Source Sans Pro';
+            src: url(font/SourceSansPro-Black.ttf);
+            font-weight: 900;
+        }
+        
+        * {
+            margin: 0;
+            border: 0;
+            font-family: 'Source Sans Pro', sans-serif;
+            outline: none;
+            -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+            /*remove o azul de seleção no android*/
+        }
+        
+         ::selection {
+            background: #000;
+            color: #fff;
+        }
+        
+         ::-moz-selection {
+            background: #000;
+            color: #fff;
+        }
+        
+         ::-webkit-scrollbar {
+            width: 12px;
+        }
+        
+         ::-webkit-scrollbar-track {
+            background-color: #f85f71;
+        }
+        
+         ::-webkit-scrollbar-thumb {
+            background-color: #c64b59;
+        }
+        
+         ::-webkit-scrollbar-thumb:hover {
+            background-color: #a64b59;
+        }
+        
+        @keyframes slideup {
+            from {
+                top: 55%;
+                opacity: 0;
+            }
+            to {
+                top: 45%;
+                opacity: 1;
+            }
+        }
+        
+        @keyframes bink {
+            from {
+                bottom: 85px;
+            }
+            to {
+                bottom: 105px;
+            }
+        }
+        
+        html {
+            background: #000;
+        }
+        
+        body {
+            opacity: 0;
+            transition: all 2s;
+        }
+        
+        .page {
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        .page-30 {
+            height: 30vh;
+        }
+        
+        .content {
+            padding: 16px;
+            height: 100%;
+            width: calc(100% - 32px);
+        }
+        
+        #p1 h1,
+        #p1 h2,
+        #p1 h3 {
+            text-align: center;
+            color: white;
+            font-weight: 200;
+            width: calc(100% - 32px);
+            top: 45%;
+            position: absolute;
+        }
+        
+        #p1 h1 {
+            margin-top: -160px;
+            font-size: 75px;
+            font-weight: 200;
+            letter-spacing: -5px;
+            text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+            animation-duration: 2s;
+            animation-name: slideup;
+            animation-timing-function: ease;
+            padding: 1px 10px;
+            left: 50%;
+            margin-left: -200px;
+            margin-top: -60px;
+            width: auto;
+            letter-spacing: normal;
+            background: rgba(0, 0, 0, .9);
+            font-size: 30px;
+            font-weight: 300;
+            text-transform: uppercase;
+        }
+        
+        #p1 h2 {
+            color: white;
+            font-size: 32px;
+            margin: 0 0 10px 0;
+            color: #fff;
+            text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+            -webkit-font-smoothing: subpixel-antialiased;
+            animation-duration: 2.5s;
+            animation-name: slideup;
+            animation-timing-function: ease;
+            font-size: 64px;
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 1.37;
+        }
+        
+        #p1 h3 {
+            color: rgba(255, 255, 255, 0.7);
+            z-index: 9;
+            top: auto;
+            font-size: 26px;
+            bottom: 85px;
+            cursor: pointer;
+            animation-duration: 1s;
+            animation-name: bink;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        
+        #p1 p {
+            background: white;
+            bottom: 0;
+            position: absolute;
+            width: calc(100% - 32px);
+            margin: 0;
+            height: calc(80px - 32px);
+            margin: 0 -16px;
+            padding: 16px;
+            text-align: center;
+        }
+        
+        #p1 {
+            background: #f85f71;
+            /* For browsers that do not support gradients */
+            background: radial-gradient(ellipse at top, #f4ba88 20%, #f85f71);
+            background-attachment: fixed;
+            overflow: hidden;
+        }
+        
+        #p2 {
+            background: white;
+        }
+        
+        #p3 {
+            background: #313131;
+            color: white;
+            overflow: hidden;
+        }
+        
+        #p4 {
+            background: #f4ba88;
+        }
+        
+        #p5 {
+            background-image: url(imgs/03.jpg);
+            background-position: center top;
+            background-attachment: fixed;
+            color: white;
+        }
+        
+        .top {
+            top: 0;
+        }
+        
+        .bottom {
+            bottom: 0;
+        }
+        
+        .esq,
+        .dir {
+            width: 50%;
+        }
+        
+        .esq {
+            float: left;
+        }
+        
+        .dir {
+            float: right;
+        }
+        
+        .esq3,
+        .dir3,
+        .center3 {
+            text-align: center;
+            width: 33.33%;
+        }
+        
+        .esq3 {
+            float: left;
+        }
+        
+        .center3 {
+            float: left;
+        }
+        
+        .dir3 {
+            float: right;
+        }
+        
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        p {
+            font-size: 18px;
+            font-weight: 300;
+            margin: 50px;
+        }
+        
+        h1,
+        h2 {
+            text-align: center
+        }
+        
+        h1 {
+            margin-top: 50px;
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 1.3;
+        }
+        
+        h2 {
+            margin-bottom: 28px;
+            font-size: 36px;
+            font-weight: 300;
+            line-height: 1.45;
+        }
+        
+        .divisor {
+            width: 80px;
+            height: 2px;
+            margin: 30px auto;
+            background: #111;
+        }
+        
+        .divisor_b {
+            width: 80px;
+            height: 2px;
+            margin: 30px auto;
+            background: white;
+        }
+        
+        .bg {
+            height: 100%;
+            background-position: center top;
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            transition-duration: 0s;
+        }
+        
+        #bg1 {
+            background-image: url(imgs/01.jpg);
+        }
+        
+        #bg2 {
+            background-image: url(imgs/02.jpg);
+            height: 200%;
+        }
+        
+        @media screen and (max-width: 1150px) {
+            #bg1,
+            #p5 {
+                background-size: auto 100%;
+            }
+        }
+        
+        @media screen and (max-width: 755px) {
+            #bg2 {
+                background-size: auto 100%;
+                height: 300%;
+            }
+            #p1 h1 {
+                font-size: 24px;
+                left: 0;
+                width: calc(100% - 20px);
+                text-align: center;
+                margin-left: 0;
+            }
+            #p1 h2 {
+                font-size: 34px;
+            }
+            .esq,
+            .dir,
+            .esq3,
+            .dir3,
+            .center3 {
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="p1" class="page">
+        <div id="bg1" class="bg"></div>
+        <div class="content">
+            <h1>Religião, Sociedade e Ciência</h1>
+            <h2>O Pluralismo e Fundamentalismo Religioso</h2>
+            <h3 onclick="scroll('p2')">▽</h3>
+            <p>Alunos: Artur Guedes, Fellipe Pinho, Gabriel Aparício<br>Professora: Rita Vignoli</p>
+        </div>
+    </div>
+    <div id="p2" class="page " style="height: auto; min-height: 100vh;" onclick="scroll('p3')">
+        <div class="content">
+            <h1>Definindo</h1>
+            <h2>Religião, Sociedade e Ciência</h2>
+            <div class="divisor"></div>
+            <div class="esq3">
+                <p><b>Religião</b> é um conjunto de sistemas culturais e de crenças, que estabelece os símbolos que relacionam a humanidade com a espiritualidade e seus próprios valores morais.</p>
+                <p>Muitas religiões têm narrativas, símbolos, tradições e histórias sagradas que se destinam a dar sentido à vida ou explicar a sua origem e do universo. <br>As religiões tendem a derivar a moralidade, a ética, as leis religiosas ou um estilo de vida preferido de suas ideias sobre o cosmos e a natureza humana.</p>
+            </div>
+            <div class="center3">
+                <p><b>Sociedade</b> é o conjunto de pessoas que compartilham propósitos, gostos, preocupações e costumes, e que interagem entre si constituindo uma comunidade.</p>
+                <p>É um grupo de indivíduos que formam um sistema semi-aberto, no qual a maior parte das interações é feita com outros indivíduos pertencentes ao mesmo grupo. Uma sociedade é uma rede de relacionamentos entre pessoas.<br>O significado geral de sociedade refere-se simplesmente a um grupo de pessoas vivendo juntas numa comunidade organizada.</p>
+            </div>
+            <div class="dir3">
+                <p><b>Ciência</b> refere-se a qualquer conhecimento ou prática sistemáticos. Em sentido estrito, ciência refere-se ao sistema de adquirir conhecimento baseado no método científico bem como ao corpo organizado de conhecimento conseguido através de tais pesquisas.</p>
+                <p>É um sistema de conhecimentos que abarca verdades, as mais gerais e abrangentes possíveis, bem como a aplicação das leis científicas; ambas especificamente obtidas e testadas através do método científico.</p>
+            </div>
+        </div>
+    </div>
+    <div class="page page-30 ">
+        <div id="bg2" class="bg"></div>
+    </div>
+    <div id="p3" class="page " style="height: auto; min-height: 100vh;" onclick="scroll('p4')">
+        <div class="content">
+            <h1>O que são?</h1>
+            <h2>Pluralismo e Fundamentalismo</h2>
+            <div class="divisor"></div>
+            <div class="esq">
+                <p>O <b>pluralismo</b> religioso é um fenômeno da sociedade moderna que desafia o ser humano à viver de forma respeitosa com o diferente. É um novo paradigma que abre espaço às diversas cosmovisões religiosas, que por meio do diálogo e alteridade busca o entendimento, a paz e a tolerância entre os indivíduos.</p>
+                <p> Pluralismo religioso representa a liberdade religiosa dos homens e a valorização de todas as manifestações religiosas. Assim, configura nosso tempo, marcado pela diversidade religiosa manifestando a multiplicidade de ideias e pensamentos entre os seres humanos em diversas culturas. Onde houver liberdade de expressão, liberdade religiosa, existirá pluralismo religioso.
+                </p>
+                <p>Na modernidade a expansão do pluralismo religioso origina-se em decorrência do secularismo e a laicização do estado. Se o estado é laico o pluralismo religioso será aceito na sociedade sem restrição, nessa sociedade haverá abertura para escolha sem interferências externas, pois o secularismo visa um estado democrático e livre. Neste aspecto não existe mais um monopólio religioso, mas uma abertura a um novo paradigma que valoriza a pluralidade religiosa e a liberdade do indivíduo.
+                </p>
+            </div>
+            <div class="dir">
+                <p><b>Fundamentalismo</b> é o termo usado para se referir à crença na interpretação literal dos livros sagrados. E fundamentalistas são encontrados entre religiosos diversos e pregam que os dogmas de seus livros sagrados sejam seguidos à risca. O termo "fundamentalismo" surgiu no começo do século 20 nos EUA, quando protestantes determinaram que a fé cristã exigia acreditar em tudo que está escrito na Bíblia. Mas o fundamentalismo só começou a preocupar o mundo em 1979, quando a Revolução Islâmica transformou o Irã num Estado teocrático e obrigou o país a um retrocesso aos olhos do Ocidente.
+                </p>
+                <p>O fundamentalismo é um movimento que objetiva voltar ao que são considerados princípios fundamentais da religião. Especificamente, refere-se a qualquer enclave religioso que intencionalmente resista a identificação com o grupo religioso maior do qual diverge quanto aos princípios fundamentais dos quais imputa ao grupo religioso maior ter-se desviado ou corrompido pela adoção de princípios alternativos hostis ou contraditórios à identidade original.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="p4" class="page " style="height: auto; min-height: 100vh;" onclick="scroll('p5')">
+        <h1>Problemas</h1>
+        <h2>Diálogo e respeito</h2>
+        <div class="divisor"></div>
+        <div class="esq">
+            <p>Infelizmente ainda somos vítimas da fragmentação da ciência e isso não nos permite buscar um horizonte mais universal do conhecimento. A concepção mercadológica, atualmente vigente, direciona o ensino superior para um conhecimento pragmático, utilitarista e bitolado. Procura-se não o que mais nos humaniza, nos faz solidários e contribui para o desenvolvimento sustentável, mas o que é mais rentável, mais lucrativo. Assim sendo, toda busca de conhecimento que ultrapassa a “mecanização” da aprendizagem é vista como inútil perda de tempo; não ajuda a ganhar dinheiro e a inserir-se no mercado de trabalho, mesmo sendo algo que pode ter um significado profundo para a humanidade. Porém, os fatos recentes apontam para a importância e a urgência do estudo científico do fenômeno religioso. Não só porque 80% da população do planeta são de pessoas religiosas, como indicou o Atlas das Religiões publicado em 2008, mas porque os acontecimentos indicam o risco do acentuar-se do fundamentalismo religioso.
+            </p>
+            <p>São muitas as maneiras onde a intolerância e o preconceito se resulta em prática egoísta e etnocêntrica. A falta do diálogo inter-religioso faz com que os indivíduos de uma religião vivam de maneira a pensar que somente sua religião deve ser aceita na sociedade e a do outro deve ser negada. O resultado não é outro se não uma barreira que obstrui a interlocução.
+            </p>
+        </div>
+        <div class="dir">
+            <p>Temos por exemplo, o episódio encabeçado pelo pastor Terry Jones, líder da Dove World Outreach Center, em Gainesville, Flórida (EUA) que há algum tempo atrás pretendia queimar 200 exemplares do Alcorão, livro sagrado dos mulçumanos, para vingar-se contra os atentados do dia 11 de setembro de 2001. <br>Esse caso poderia passar despercebido se não fosse expressão de duas tendências que estão crescendo nos últimos anos. O primeiro é o crescimento do fundamentalismo religioso. O segundo é o espírito de vingança e de ódio que esse tipo de ação costuma suscitar nas pessoas. De fato, como têm mostrado as notícias que estão circulando na mídia, esta insana atitude do pastor instigou grupos religiosos cristãos a fazerem o mesmo. Em países como os EUA e a Austrália a polícia teve que intervir para evitar que os exemplares do Alcorão fossem realmente queimados. O fundamentalismo religioso se caracteriza pelo fechamento de cada religião na própria autossuficiência dogmática, afirmando que vale apenas a sua verdade. Por essa razão os fundamentalistas se recusam a interagir com as outras religiões, não admitindo a parcela de verdade presente nas outras crenças religiosas. Os fundamentalistas conferem caráter absoluto aos seus pontos de vistas. Por isso não toleram outra verdade. Assim sendo, o destino do fundamentalismo é a intolerância, o acirramento entre grupos religiosos e a geração de ódio e de violência. De fato, a atitude do pastor Terry Jones e dos seus aliados provocou uma reação violenta no mundo islâmico, o que poderia, ou poderá ainda, gerar atos de violência em todo o mundo.
+            </p>
+        </div>
+    </div>
+    <div id="p5" class="page " style="height: auto; min-height: 100vh; text-align:center;">
+        <h1></h1>
+        <h2>Créditos</h2>
+        <p><a target="_blank" href="https://pt.wikipedia.org/wiki/Religião">https://pt.wikipedia.org/wiki/Religião</a><br/>(acesso dia 31/05/2017)</p>
+        <p><a target="_blank" href="https://pt.wikipedia.org/wiki/Sociedade">https://pt.wikipedia.org/wiki/Sociedade</a><br/>(acesso dia 31/05/2017)</p>
+        <p><a target="_blank" href="https://pt.wikipedia.org/wiki/Ciência">https://pt.wikipedia.org/wiki/Ciência</a><br/>(acesso dia 31/05/2017)</p>
+        <p><a target="_blank" href="http://super.abril.com.br/historia/o-que-e-fundamentalismo/">http://super.abril.com.br/historia/o-que-e-fundamentalismo/</a><br/>(acesso dia 31/05/2017)</p>
+        <p><a target="_blank" href="https://pt.wikipedia.org/wiki/Fundamentalismo_religioso">https://pt.wikipedia.org/wiki/Fundamentalismo_religioso</a><br/>(acesso dia 31/05/2017)</p>
+        <p><a target="_blank" href="https://www.ucb.br/sites/000/14/fundamentalismo.pdf">https://www.ucb.br/sites/000/14/fundamentalismo.pdf</a><br/>(acesso dia 31/05/2017)</p>
+        <p><a target="_blank" href="https://semanaacademica.org.br/system/files/artigos/modernidade_e_pluralismo_religioso.pdf">https://semanaacademica.org.br/system/files/artigos/modernidade_e_pluralismo_religioso.pdf</a><br/>(acesso dia 31/05/2017)</p>
+        <p><a target="_blank" href="http://pensamentoplural.ufpel.edu.br/edicoes/02/03.pdf">http://pensamentoplural.ufpel.edu.br/edicoes/02/03.pdf</a><br/>(acesso dia 31/05/2017)</p>
+    </div>
+    <script>
+        window.addEventListener("DOMContentLoaded", function() {
+            var b = document.body;
+            b.style.opacity = 0;
+            setTimeout(function() {
+                b.style.opacity = 1;
+            }, 200);
+        });
+        function scroll(e) {
+            function scrollTo(element, to, duration) {
+                if (duration <= 0) return;
+                var difference = to - element.scrollTop;
+                var perTick = difference / duration * 10;
+                setTimeout(function() {
+                    element.scrollTop = element.scrollTop + perTick;
+                    if (element.scrollTop === to) return;
+                    scrollTo(element, to, duration - 10);
+                }, 10);
+            }
+            elmnt = document.getElementById(e);
+            scrollTo(document.body, elmnt.offsetTop, 700);
+        }
+        function parallax() {
+            // Declarando as var.
+            var layer_1 = document.getElementById('bg1');
+            var layer_2 = document.getElementById('bg2');
+            // Aplicando a posição
+            layer_1.style.marginTop = (window.pageYOffset / 1.5) + 'px';
+            layer_2.style.marginTop = -(window.pageYOffset / 7) + 100 + 'px';
+        }
+        window.addEventListener("scroll", parallax, false);
+
+    </script>
+</body>
+
+</html>
