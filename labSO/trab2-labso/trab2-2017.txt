@@ -1,0 +1,22 @@
+﻿Aluno: Artur Oliveira Guedes 0050012851
+Trabalho 2 de Laboratorio de Sistemas Operacionais
+Professor: Alex Salgado
+1o. Semestre de 2017   Turno: Manhã
+--------------------------------------------------
+1-Faça um script shell que exiba o seguinte menu e execute as operações abaixo:
+
+Trabalho 2 - Aluno:(Seunome e sobrenome)
+[1] Listar conteúdo da pasta atual
+[2] Ver conteúdo de um arquivo
+[3] Testar se uma maquina ip/nome está no ar
+[0] Sair
+Escolha uma opção: 
+
+
+Observações: 
+- O menu sempre será mostrado após a execução de uma das opções
+- O programa só termina quando o usuário escolhe a opção 0-sair
+- No item 2, você deve perguntar o nome do arquivo
+- No item 3, você deve perguntar o nome da maquina ou ip
+
+Dúvidas?

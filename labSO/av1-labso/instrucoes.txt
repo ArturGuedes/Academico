@@ -1,0 +1,26 @@
+Instruções para a prova
+--------------------------
+
+1 - Criar um repositório no seu github com o nome av1-labso
+2 - Clonar este repositório na sua máquina local
+3 - Clonar o repositório https://github.com/salgado/labso.git 
+4 - Copiar todo o diretorio prova1-manha para a sua pasta av1-labso
+5 - Editar o arquivo prova1-2017.txt com seu nome e as respostas
+6 - Enviar todos os arquivos para o seu github 
+7 - Preencher a prova e este formulario com seus dados 
+de envio: https://goo.gl/forms/sqrMM3wYS7ZYCYFC3
+
+
+Instruções básicas do github
+----------------------------
+- clonar repositório
+git clone <url-do-seu-repositorio>
+
+- submeter arquivo da sua pasta
+git add <arquivo>
+git commit -m "minha mensagem"
+git push
+
+- sincronizar sua pasta com github
+git pull
+

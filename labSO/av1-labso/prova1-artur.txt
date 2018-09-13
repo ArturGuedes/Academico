@@ -1,0 +1,69 @@
+Aluno: Artur Oliveira Guedes 005001285
+Prova de Laboratorio de Sistemas Operacionais
+Professor: Alex Salgado
+1o. Semestre de 2017   Turno: Manha            AV1
+--------------------------------------------------
+Com relação aos comandos do SO Linux, responda as perguntas abaixo:
+
+
+1 - Quais são as quatro liberdades básicas associadas ao software livre?
+Resposta:
+liberdade 0 - executar um programa para qualquer propósito
+liberdade 1 - estudar como um programa funciona e adaptá-lo para suas necessidades
+liberdade 2 - redistribuir cópias para ajudar o proximo
+liberdade 3 - aperfeiçoar o programa e liberar seus aperfeiçoamentos para a comunidade
+
+2 - Qual o comando linux para mostrar todos os arquivos vazios da pasta atual?
+Resposta: 
+find -empty
+
+3 - Renomear o arquivo prova1-2017.txt da sua pasta para prova1-seunome.txt . 
+Ex.: prova1-alex.txt
+Resposta (Qual comando você utilizou?):
+mv prova1-2017.txt prova1-artur.txt
+
+4 - Crie 3 arquivos em branco que comecem com seu nome e termina com uma 
+sequencia 1, 2 e 3. 
+Ex.: alex1.txt, alex2.txt, alex3.txt. Que comandos você utilizou?
+Resposta: 
+touch artur1.txt artur2.txt artur3.txt
+
+5 - Crie 1 pasta com seu nome+diadenascimento (ex.:alex25) e copie os 
+3 arquivos criandos anteriormente para esta pasta.
+Resposta: 
+mkdir artur13
+cp artur1.txt artur13
+cp artur2.txt artur13
+cp artur3.txt artur13
+
+6 - Utilizando wildcards, qual o comando para listar todos os arquivos 
+que comecem com seu nome e termina com o numeral de 1 a 3 com extensão .txt?
+Resposta:
+ls artur?.txt
+
+7 - Existe um arquivo chamado access.log na sua pasta log. 
+Qual é o ip que aparece no arquivo com mais frequencia e 
+qual ip que aparece no arquivo com menos frequencia?
+Resposta 1 :
+101.163.230.250
+
+Resposta 2 (qual comando você utilizou? ):
+uniq -d access.log
+
+
+8 - Usando um comando linux, baixar o arquivo a seguir na sua 
+pasta principal http://evc-cit.info/cit052/grepdata.txt
+Resposta 1 (qual comando você utilizou?):
+wget htpp://evc-cit.info/cit052/grepdata.txt
+
+9 - Com relação ao arquivo baixado no item anterior: Listar 
+todas as linhas que contêm um endereço de e-mail 
+(eles têm um @ neles), precedido pelo número da linha.
+Resposta:
+grep -n '@' grepdata.txt
+
+10 - Listar todo o conteudo (todos os arquivos e pastas)
+a partir de sua pasta principal e direcionar a saida 
+para o segundo arquivo do item 4.
+Resposta (comando utilizado): 
+find | cat >> artur13/artur2.txt

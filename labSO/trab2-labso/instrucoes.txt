@@ -1,0 +1,25 @@
+﻿Instruções para o Trabalho
+--------------------------
+
+1 - criar um repositório no seu github com o nome trab2-labso
+2 - clonar este repositório na sua máquina local
+3 - clonar o repositório https://github.com/salgado/labso.git 
+4 - copiar todo o diretorio trab2 para a sua pasta trab2-labso
+5 - editar o arquivo trab2-2017.txt com seu nome e as respostas
+6 - enviar todos os arquivos para o seu github 
+7 - preencher este formulario com seus dados 
+de envio: https://goo.gl/forms/dTHx6BsCkKJyiB7z2
+
+
+Instruções básicas do github
+----------------------------
+- clonar repositório
+git clone <url-do-seu-repositorio>
+
+- submeter todo o conteudo da sua pasta
+git add .
+git commit -m "minha mensagem"
+git push
+
+- sincronizar sua pasta com github
+git pull
