@@ -1,0 +1,8 @@
+C:\Users\artur\Desktop\HospitalApp\Modelo\bin\Debug\Modelo.exe.config
+C:\Users\artur\Desktop\HospitalApp\Modelo\bin\Debug\Modelo.exe
+C:\Users\artur\Desktop\HospitalApp\Modelo\bin\Debug\Modelo.pdb
+C:\Users\artur\Desktop\HospitalApp\Modelo\obj\Debug\Modelo.Properties.Resources.resources
+C:\Users\artur\Desktop\HospitalApp\Modelo\obj\Debug\Modelo.csproj.GenerateResource.Cache
+C:\Users\artur\Desktop\HospitalApp\Modelo\obj\Debug\Modelo.exe
+C:\Users\artur\Desktop\HospitalApp\Modelo\obj\Debug\Modelo.pdb
+C:\Users\artur\Desktop\HospitalApp\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache

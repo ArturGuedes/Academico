@@ -1,0 +1,12 @@
+C:\Users\artur\Desktop\HospitalApp\Dados\bin\Debug\Dados.exe.config
+C:\Users\artur\Desktop\HospitalApp\Dados\bin\Debug\Dados.exe
+C:\Users\artur\Desktop\HospitalApp\Dados\bin\Debug\Dados.pdb
+C:\Users\artur\Desktop\HospitalApp\Dados\obj\Debug\Dados.csprojResolveAssemblyReference.cache
+C:\Users\artur\Desktop\HospitalApp\Dados\obj\Debug\Dados.Properties.Resources.resources
+C:\Users\artur\Desktop\HospitalApp\Dados\obj\Debug\Dados.csproj.GenerateResource.Cache
+C:\Users\artur\Desktop\HospitalApp\Dados\obj\Debug\Dados.exe
+C:\Users\artur\Desktop\HospitalApp\Dados\obj\Debug\Dados.pdb
+C:\Users\artur\Desktop\HospitalApp\Dados\bin\Debug\Controle.exe
+C:\Users\artur\Desktop\HospitalApp\Dados\bin\Debug\Modelo.exe
+C:\Users\artur\Desktop\HospitalApp\Dados\bin\Debug\Controle.pdb
+C:\Users\artur\Desktop\HospitalApp\Dados\bin\Debug\Modelo.pdb

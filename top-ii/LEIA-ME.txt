@@ -1,0 +1,13 @@
+##################################################
+##	INFORMAÇÕES RELEVANTES PARA O USO:	##
+##################################################
+Criado por: 	Artur O. Guedes
+Matrícula: 	0050012851
+Contato: 	arturguedx@gmail.com
+-------------------------------------------------
+
+Usuário: 	admin
+Senha: 		1234
+
+Diretório do banco de dados:	
+	"\Visao\bin\Debug\BancoDados.sdf"

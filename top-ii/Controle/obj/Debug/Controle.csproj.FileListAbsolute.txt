@@ -1,0 +1,10 @@
+C:\Users\artur\Desktop\HospitalApp\Controle\bin\Debug\Controle.exe.config
+C:\Users\artur\Desktop\HospitalApp\Controle\bin\Debug\Controle.exe
+C:\Users\artur\Desktop\HospitalApp\Controle\bin\Debug\Controle.pdb
+C:\Users\artur\Desktop\HospitalApp\Controle\bin\Debug\Modelo.exe
+C:\Users\artur\Desktop\HospitalApp\Controle\bin\Debug\Modelo.pdb
+C:\Users\artur\Desktop\HospitalApp\Controle\obj\Debug\Controle.csprojResolveAssemblyReference.cache
+C:\Users\artur\Desktop\HospitalApp\Controle\obj\Debug\Visao.Properties.Resources.resources
+C:\Users\artur\Desktop\HospitalApp\Controle\obj\Debug\Controle.csproj.GenerateResource.Cache
+C:\Users\artur\Desktop\HospitalApp\Controle\obj\Debug\Controle.exe
+C:\Users\artur\Desktop\HospitalApp\Controle\obj\Debug\Controle.pdb
