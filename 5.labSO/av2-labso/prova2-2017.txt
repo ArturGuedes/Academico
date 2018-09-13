@@ -1,0 +1,113 @@
+Unilasalle-RJ - AV2
+Aluno: Artur Oliveira Guedes
+Prova Av2 de Laboratorio de Sistemas Operacionais
+Professor: Alex Salgado
+1o. Semestre de 2017   Turno: Manhã
+--------------------------------------------------
+1-Faça um script shell que:
+- Pergunte por um nome e crie uma pasta e um arquivo.txt com o mesmo nome inserido.
+
+2-Quantos erros tem no script abaixo? Qual(is) são eles?
+case "$file" in
+    *.txt}
+        echo "É um arquivo de texto."
+        cat "$file"
+        
+    *.gif|*.jpg|*.png}
+        echo "É uma figura."
+        xloadimage "$file"
+        
+    *}
+        echo "Não sei que arquivo é esse."
+        
+esac
+
+3-Usando estrutura de repetição, faça um script para exibir todos os arquivos
+da pasta atual com tamanho maior que 500kb.
+
+4-Usando estrutura de repetição, faça um script para calcular e exibir quantas
+pastas e quantos arquivos tem na pasta atual.
+
+5-Faça um script que leia um numero IP e retorna se endereço responde ou não ao 
+comando ping.
+Além disso, se for digitado um ip vazio, o script deve informar ao usuario.
+
+Respostas aqui:
+1-
+#!/bin/bash
+echo Informe um nome
+read nome
+mkdir $nome
+echo -e "\tDiretório $nome criado"
+touch $nome.txt
+echo -e "\tArquivo $nome.txt criado\n"
+
+
+2-
+Na estrutura Case existem 6 erros eles são encontrados na utilização de } e não de ) e na ausencia de ;; para encerrar cada case.
+
+Script corrigido:
+#!/bin/bash
+file=$1
+if [ -z $file ]; then
+        echo "Informe o nome do arquivo:"  
+        read url
+fi
+case "$file" in
+    *.txt)
+        echo "É um arquivo de texto."
+        cat "$file";; 
+    *.gif|*.jpg|*.png)
+        echo "É uma figura."
+        xloadimage "$file";;
+    *)
+        echo "Não sei que arquivo é esse";; 
+esac
+
+
+3-
+#!bin/bash
+for arq in *.*
+do
+        tam=$(wc -c <"$arq")
+        if [ $tam -ge 500000 ]; then
+                echo "$arq"
+        fi
+done
+
+
+4-
+#!/bin/bash
+if ! [ $dir ]
+then
+dir='.'
+fi
+ndir=$(ls -lR "$dir" | grep '^d' | wc -l)
+nlin=$(ls -lR "$dir" | grep '^l' | wc -l)
+narq=$(ls -lR "$dir" | grep '^-' | wc -l)
+echo "No diretório atual:"
+echo -e "\t Existem $ndir pastas e $narq arquivos\n"
+
+
+5-
+#!/bin/bash
+url=$1
+if [ -z $url ]; then
+        echo "Informe um endereço: "  
+        read url
+fi
+if [ -z $url ]; then
+        echo "Endereço vazio"
+else 
+        ping -q -c 5 $url
+        if [ $? -eq 0 ]; then
+                echo -e  "\t$url esta funcionando\n"
+        else
+                echo -e  "\t$url não esta funcionando\n"
+        fi
+fi
+
+
+
+
+
