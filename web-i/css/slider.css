@@ -1,0 +1,25 @@
+@keyframes animacao {
+0% { left: 0%; }
+5% { left: 0%; }
+20% { left: -100%; }
+27% { left: -100%; }
+40% { left: -200%; }
+47% { left: -200%; }
+60% { left: -300%; }
+67% { left: -300%; }
+80% { left: -400%; }
+87% { left: -400%; }
+100% { left: -500%; }
+}
+div#slider { 
+    max-width: 100%; max-height: 390px; position: relative;
+    overflow: hidden;
+    z-index: -9}
+div.slider img { width: calc(100%/6); float: left;}
+div.slider { 
+  width: calc(100%*6); position: relative;
+  margin: 0;  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 120s animacao infinite; 
+}
