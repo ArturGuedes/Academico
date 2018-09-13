@@ -1,0 +1,5 @@
+Teste de arquivo
+1ª linha
+2ª linha
+3ª linha
+Ctrl+D para sair
