@@ -6,3 +6,10 @@ C:\Users\artur\Desktop\HospitalApp\Modelo\obj\Debug\Modelo.csproj.GenerateResour
 C:\Users\artur\Desktop\HospitalApp\Modelo\obj\Debug\Modelo.exe
 C:\Users\artur\Desktop\HospitalApp\Modelo\obj\Debug\Modelo.pdb
 C:\Users\artur\Desktop\HospitalApp\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Modelo\bin\Debug\Modelo.pdb
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Modelo\obj\Debug\Modelo.Properties.Resources.resources
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Modelo\obj\Debug\Modelo.csproj.GenerateResource.Cache
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Modelo\obj\Debug\Modelo.pdb
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Modelo\bin\Debug\Modelo.dll
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Modelo\obj\Debug\Modelo.dll

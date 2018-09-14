@@ -8,3 +8,12 @@ C:\Users\artur\Desktop\HospitalApp\Controle\obj\Debug\Visao.Properties.Resources
 C:\Users\artur\Desktop\HospitalApp\Controle\obj\Debug\Controle.csproj.GenerateResource.Cache
 C:\Users\artur\Desktop\HospitalApp\Controle\obj\Debug\Controle.exe
 C:\Users\artur\Desktop\HospitalApp\Controle\obj\Debug\Controle.pdb
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Controle\bin\Debug\Controle.pdb
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Controle\bin\Debug\Modelo.pdb
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Controle\obj\Debug\Controle.csprojResolveAssemblyReference.cache
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Controle\obj\Debug\Visao.Properties.Resources.resources
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Controle\obj\Debug\Controle.csproj.GenerateResource.Cache
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Controle\obj\Debug\Controle.pdb
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Controle\bin\Debug\Controle.dll
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Controle\bin\Debug\Modelo.dll
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Controle\obj\Debug\Controle.dll

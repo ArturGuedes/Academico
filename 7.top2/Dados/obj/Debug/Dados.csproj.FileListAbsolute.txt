@@ -10,3 +10,14 @@ C:\Users\artur\Desktop\HospitalApp\Dados\bin\Debug\Controle.exe
 C:\Users\artur\Desktop\HospitalApp\Dados\bin\Debug\Modelo.exe
 C:\Users\artur\Desktop\HospitalApp\Dados\bin\Debug\Controle.pdb
 C:\Users\artur\Desktop\HospitalApp\Dados\bin\Debug\Modelo.pdb
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Dados\bin\Debug\Dados.pdb
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Dados\bin\Debug\Controle.pdb
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Dados\bin\Debug\Modelo.pdb
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Dados\obj\Debug\Dados.csprojResolveAssemblyReference.cache
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Dados\obj\Debug\Dados.Properties.Resources.resources
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Dados\obj\Debug\Dados.csproj.GenerateResource.Cache
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Dados\obj\Debug\Dados.pdb
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Dados\bin\Debug\Dados.dll
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Dados\bin\Debug\Controle.dll
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Dados\bin\Debug\Modelo.dll
+C:\Users\artur\Documents\GitHub\Academico\7.top2\Dados\obj\Debug\Dados.dll

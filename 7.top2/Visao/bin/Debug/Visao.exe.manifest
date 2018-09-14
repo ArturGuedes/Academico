@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Visao.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="Visao.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -48,26 +48,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Controle.exe" size="8192">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Controle.dll" size="7680">
       <assemblyIdentity name="Controle" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>2ZTW2xx53B2v7MZZTeBf89o3PzoA+TWGH47P063eAtE=</dsig:DigestValue>
+        <dsig:DigestValue>S6XmuSsroASa5lBgcN9fzwXdAgg2IHBxs21KMdxKdgA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Dados.exe" size="19456">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Dados.dll" size="18944">
       <assemblyIdentity name="Dados" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>vnArYcoHNlAD/+lIbUdruG1C1UQX08QcV6sRHxLj+3o=</dsig:DigestValue>
+        <dsig:DigestValue>BRNnYrWi9k5FWmW+9E/s79z2V57eWYfdwtS+jA3d59s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -84,14 +84,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Modelo.exe" size="11264">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Modelo.dll" size="10240">
       <assemblyIdentity name="Modelo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ihiSxFP8wgkk87F0b4bROUwwBTC/601yTG6crHO+jIE=</dsig:DigestValue>
+        <dsig:DigestValue>M72Bob4xSy671X1azsVuMDR2529TedI+DkGWmH9wqtA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -115,7 +115,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+jko6Gke1FQ7yQPAZvrwii36mgjIpX0za3IzJE8VZ0k=</dsig:DigestValue>
+        <dsig:DigestValue>uH77FAt8FyH9mgyDWjmq32l8DzrqB7yFPiDFDcUyYr8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
