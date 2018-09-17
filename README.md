@@ -24,5 +24,4 @@ _Repositório reunindo alguns exercícios e trabalhos acadêmicos._
 - 7º Período
   - [Sistemas de Apoio à Decisão](https://github.com/ArturGuedes/Academico/tree/master/7.sad)
   - [Tópicos Especiais II (HospitalApp)](https://github.com/ArturGuedes/Academico/tree/master/7.top2)
-
-
+  - [ThinKing](https://adobe.ly/2PDeTXo)
